@@ -1,5 +1,11 @@
 PODS:
-  - A (0.1.1):
+  - A (0.1.2):
+    - A/All (= 0.1.2)
+    - CTMediator
+  - A/All (0.1.2):
+    - A/Target
+    - CTMediator
+  - A/Target (0.1.2):
     - CTMediator
   - CTMediator (46)
   - FBSnapshotTestCase (2.1.4):
@@ -22,7 +28,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  A: 5ca445b77606400af868d031e206ea81ccd5896a
+  A: 28a1d3d1e3489e3ea55e9f7c511975bd6c3dd549
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 

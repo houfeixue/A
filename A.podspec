@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'A'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of A.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'A/Classes/**/*'
+  s.default_subspec = 'All'
+  s.subspec 'All' do |spec|
+    spec.dependency 'A/Target'
+  end
+  
+  s.subspec 'Target' do |spec|
+    spec.source_files  = "A/Classes/Target/*.{h,m}"
+  end
   
   # s.resource_bundles = {
   #   'A' => ['A/Assets/*.png']
