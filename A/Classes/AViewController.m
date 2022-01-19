@@ -8,7 +8,7 @@
 
 #import "AViewController.h"
 
-#import <B_Category/CTMediator+B.h>
+//#import <B_Category/CTMediator+B.h>
 
 @interface AViewController ()
 
@@ -23,11 +23,11 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
-    if (viewController == nil) {
-        return;
-    }
-    [self presentViewController:viewController animated:YES completion:nil];
+//    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
+//    if (viewController == nil) {
+//        return;
+//    }
+//    [self presentViewController:viewController animated:YES completion:nil];
 //    [self.navigationController pushViewController:viewController animated:YES];
 }
 

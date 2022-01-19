@@ -1,8 +1,5 @@
 PODS:
-  - A (0.1.0):
-    - B_Category
-    - CTMediator
-  - B_Category (0.1.0):
+  - A (0.1.1):
     - CTMediator
   - CTMediator (46)
   - FBSnapshotTestCase (2.1.4):
@@ -13,7 +10,6 @@ PODS:
 
 DEPENDENCIES:
   - A (from `../`)
-  - B_Category (from `../../B_Category/B_Category.podspec`)
   - FBSnapshotTestCase
 
 SPEC REPOS:
@@ -24,15 +20,12 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   A:
     :path: "../"
-  B_Category:
-    :path: "../../B_Category/B_Category.podspec"
 
 SPEC CHECKSUMS:
-  A: 0e1d041ea68a8fa960da62e6281cdf34b2c1e07b
-  B_Category: b82a319cf1e68e13b74602bade77d597e0f6ae5a
+  A: 5ca445b77606400af868d031e206ea81ccd5896a
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
-PODFILE CHECKSUM: c8cfe7377e7468d3b6ba7746039c47561839917e
+PODFILE CHECKSUM: 4d5a8115ead2736ad3d152916cca534ade714333
 
 COCOAPODS: 1.10.2
