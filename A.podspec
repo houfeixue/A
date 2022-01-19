@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'A/Classes/**/*'
+ # s.source_files = 'A/Classes/**/*'
   s.default_subspec = 'All'
   s.subspec 'All' do |spec|
     spec.dependency 'A/ViewController'
