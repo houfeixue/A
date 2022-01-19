@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'A_Example' do
+  pod 'A', :path => '../'
+  pod 'B_Category',   :path =>'../../B_Category/B_Category.podspec'
+
+
+  target 'A_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
